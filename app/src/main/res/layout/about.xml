@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <TextView
+            android:padding="8dp"
+            android:textSize="25dp"
+            android:text="Jadi gini, dota itu"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EF3325"
+            >
+        </TextView>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/dota"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+        </ImageView>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:textSize="20dp"
+            android:text="Jadi Dota 2 adalah sebuah permainan arena pertarungan daring multipemain, dan merupakan sekuel dari Defense of the Ancients mod pada Warcraft 3: Reign of Chaos dan Warcraft 3: The Frozen Throne. DotA 2 dikembangkan oleh Valve Corporation, terbit juli 2013 dota 2 dapat dimainkan secara gratis pada sistem operasi Microsoft Windows, OS X and Linux. Dota 2 dapat dimainkan secara eksklusif melalui distributor resmi valve, Steam."
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="132dp"
+            android:textSize="8dp"
+            android:text="Aplikasi ini dibuat dengan sepenuh hati"
+            android:gravity="center"
+            >
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <TextView
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:text="Ssstttt.."
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EF3325"
+            >
+        </TextView>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/dota"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+        </ImageView>
+        <TextView
+            android:layout_marginTop="17dp"
+            android:textSize="20dp"
+            android:text="Login dulu qi, baru main"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EF3325"
+            android:gravity="center"
+            android:hint="Login"
+            android:textColorHint="#FFFFFF" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EF3325"
+            android:gravity="center"
+            android:hint="Daftar"
+            android:textColorHint="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
